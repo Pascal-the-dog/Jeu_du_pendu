@@ -1,7 +1,7 @@
 
 def afficher_pendu(erreurs):
     if erreurs == 0:
-        print("""========Y=
+        print("""\n========Y=
 ||/
 ||
 ||
@@ -10,7 +10,7 @@ def afficher_pendu(erreurs):
 =============\n
 """)
     elif erreurs == 1:
-        print("""========Y=
+        print("""\n========Y=
 ||/     |
 ||      O
 ||
@@ -19,7 +19,7 @@ def afficher_pendu(erreurs):
 =============\n
 """)
     elif erreurs == 2:
-        print("""========Y=
+        print("""\n========Y=
 ||/     |
 ||      O
 ||      |
@@ -28,7 +28,7 @@ def afficher_pendu(erreurs):
 =============\n
 """)
     elif erreurs == 3:
-        print("""========Y=
+        print("""\n========Y=
 ||/     |
 ||      O
 ||     /|
@@ -37,7 +37,7 @@ def afficher_pendu(erreurs):
 =============\n
 """)
     elif erreurs == 4:
-        print("""========Y=
+        print("""\n========Y=
 ||/     |
 ||      O
 ||     /|\\
@@ -47,7 +47,7 @@ def afficher_pendu(erreurs):
 """)
 
     elif erreurs == 5:
-        print("""========Y=
+        print("""\n========Y=
 ||/     |
 ||      O
 ||     /|\\
@@ -57,7 +57,7 @@ def afficher_pendu(erreurs):
 """)
 
     else:
-        print("""========Y=
+        print("""\n========Y=
 ||/     |
 ||      O
 ||     /|\\       t
