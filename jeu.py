@@ -37,9 +37,11 @@ def demander_lettre():
             continue
 
         return lettre
-    
+
+
 def jouer_tour():
     while True:
+    
         lettre = demander_lettre()
 
         # Ajouter lettres jouées au registre
@@ -74,4 +76,3 @@ def jouer_tour():
             print(f"Le mot secret était : {jeu["mot_secret"]} !")
             break
 
-jouer_tour()
